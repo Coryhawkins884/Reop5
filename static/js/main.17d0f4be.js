@@ -11191,15 +11191,9 @@
           (0, c.jsxs)("div", {
             style: {
               maxWidth: 700,
-              marginTop: 20,
-              marginBottom: 200,
-              marginRight: 10,
-              marginLeft: 10,
-              paddingBottom: 40,
-              paddingLeft: 10,
-              paddingRight: 10,
-              background: "rgba(0,0,0,0.8)",
-              borderRadius: 20,
+              marginTop: "20px 10px 200px",
+              paddingBottom: "40px 10px 0px",
+              background: "rgba(0,0,0,0)",
             },
             children: [
               (0, c.jsxs)(l(), {
