@@ -11425,12 +11425,10 @@
               }),
               (0, c.jsx)("div", {
                 style: {
-                  marginTop: 20,
-                  marginBottom: 20,
+                  margin: "20px 0px",
                   paddingBottom: 20,
-                  borderRadius: 30,
-                  backgroundColor: "white",
-                  border: "1px solid #d0d0d0",
+                  borderRadius: 15,
+                  backgroundColor: "#fff",
                   lineHeight: 1.5,
                 },
                 children: [
@@ -11438,7 +11436,7 @@
                     src: "/resources/unlock.png",
                     width: "100%",
                     style: {
-                      borderRadius: "30px 30px 0px 0px",
+                      borderRadius: "15px 0px",
                     },
                   }),
                   (0, c.jsx)("div", {
@@ -11447,7 +11445,7 @@
                       fontWeight: "bold",
                       fontSize: 20,
                       color: "#3084F4",
-                      margin: "15px 20px 15px 20px",
+                      margin: "15px 30px",
                     },
                     children: "Review request",
                   }),
@@ -11456,7 +11454,7 @@
                     style: {
                       fontWeight: "bold",
                       fontSize: 17,
-                      margin: "15px 20px 15px 20px",
+                      margin: "15px 30px",
                     },
                     children: "Fixing problems with account restrictions",
                   }),
@@ -11465,7 +11463,7 @@
                     style: {
                       fontWeight: "normal",
                       fontSize: 15,
-                      margin: "15px 20px 10px 20px",
+                      margin: "15px 30px",
                     },
                     children:
                       "Please be sure to provide the requested information below. Failure to provide this information may delay the processing of your appeal.",
