@@ -10828,6 +10828,7 @@
                       display: "flex",
                       padding: 30,
                       lineHeight: 1.5,
+                      boxShadow: "rgba(0,0,0,0.1) 1px 3px 8px 3px",
                     },
                     children: [
                       (0, c.jsx)("div", {
@@ -10840,6 +10841,7 @@
                         },
                         children: (0, c.jsx)("img", {
                           src: "/resources/ref.png",
+                          style:{borderRadius: 10},
                           height: 130,
                           alt: "",
                         }),
@@ -10935,6 +10937,7 @@
                   transform: "translate(-50%, -50%)",
                   lineHeight: 1.5,
                   borderTop: "0.5px solid #d0d0d0",
+                  boxShadow: "rgba(0,0,0,0.1) 1px 1px 8px 1px",
                 },
                 children: [
                   (0, c.jsx)("div", {
@@ -11310,6 +11313,7 @@
                   padding: 20,
                   borderRadius: 15,
                   lineHeight: 1.5,
+                  boxShadow: "rgba(0,0,0,0.1) 1px 3px 8px 3px",
                 },
                 children: [
                   (0, c.jsx)("div", {
@@ -11413,6 +11417,7 @@
                   borderRadius: 15,
                   backgroundColor: "#fff",
                   lineHeight: 1.5,
+                  boxShadow: "rgba(0,0,0,0.1) 1px 3px 8px 3px",
                 },
                 children: [
                   (0, c.jsx)("img", {
@@ -11470,6 +11475,7 @@
                     borderWidth: 0.1,
                     borderRadius: 10,
                     border: "1px solid #d0d0d0",
+                    boxShadow: "rgba(0,0,0,0.1) 1px 3px 8px 3px",
                   },
                   placeholder: "Additional info...",
                 }),
@@ -11494,6 +11500,7 @@
                       borderWidth: 0.1,
                       borderRadius: 10,
                       border: "1px solid #d0d0d0",
+                      boxShadow: "rgba(0,0,0,0.1) 1px 3px 8px 3px",
                     },
                     placeholder: "Full Name",
                   }),
