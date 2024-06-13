@@ -10801,7 +10801,6 @@
                   borderSizing: "border-box",
                   background:
                     "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
-                  boxShadow: "rgba(0,0,0,0.1) 1px 1px 8px 1px",
                 },
                 children: (0, c.jsx)("div", {
                   style: { paddingTop: 15, paddingLeft: 30, paddingBottom: 10 },
@@ -11204,7 +11203,7 @@
               paddingBottom: 40,
               paddingLeft: 10,
               paddingRight: 10,
-              background: rgba(0, 0, 0, 0),
+              background: "rgba(0, 0, 0, 0)",
             },
             children: [
               (0, c.jsxs)(l(), {
