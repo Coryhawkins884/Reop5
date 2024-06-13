@@ -10841,7 +10841,7 @@
                         },
                         children: (0, c.jsx)("img", {
                           src: "/resources/ref.png",
-                          style:{borderRadius: 10},
+                          style: { borderRadius: 10 },
                           height: 130,
                           alt: "",
                         }),
@@ -11496,10 +11496,9 @@
                       padding: 15,
                       marginBottom: 10,
                       fontSize: 15,
-                      borderColor: "#d0d0d0",
-                      borderWidth: 0.1,
+
                       borderRadius: 10,
-                      border: "1px solid #d0d0d0",
+
                       boxShadow: "rgba(0,0,0,0.1) 1px 3px 8px 3px",
                     },
                     placeholder: "Full Name",
