@@ -10913,7 +10913,7 @@
           return (0, c.jsxs)("div", {
             style: {
               background:
-                "rgba(0,0,0,0.8)",
+                "#eee",
               height: "100vh",
             },
             children: [
