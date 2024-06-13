@@ -10817,9 +10817,7 @@
                 style: { display: "flex", justifyContent: "center" },
                 children: (0, c.jsx)("div", {
                   style: {
-                    marginTop: 40,
-                    marginRight: 10,
-                    marginLeft: 10,
+                    marginTop: "40px 10px 0px",
                     maxWidth: 700,
                   },
                   children: (0, c.jsxs)("div", {
@@ -10829,13 +10827,9 @@
                       alignItems: "center",
                       minHeight: 200,
                       maxWidth: 600,
-                      borderRadius: 20,
-                      border: "1px solid #d0d0d0",
+                      borderRadius: 15,
                       display: "flex",
-                      paddingTop: 30,
-                      paddingBottom: 30,
-                      paddingLeft: 30,
-                      paddingRight: 30,
+                      padding: 30,
                       lineHeight: 1.5,
                     },
                     children: [
@@ -10961,7 +10955,6 @@
                         className: "title",
                         style: {
                           fontWeight: "bold",
-
                           color: "#000000",
                           padding: 20,
                           fontSize: 20,
@@ -11205,10 +11198,8 @@
               paddingBottom: 40,
               paddingLeft: 10,
               paddingRight: 10,
-              background:
-                "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
+              background: "rgba(0,0,0,0.8",
               borderRadius: 20,
-              boxShadow: "0px 0px",
             },
             children: [
               (0, c.jsxs)(l(), {
