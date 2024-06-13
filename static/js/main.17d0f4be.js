@@ -11318,7 +11318,7 @@
                   }),
                 ],
               }),
-              (0, c.jsxs)("br")
+              (0, c.jsx)("br", {}),
               (0, c.jsxs)("div", {
                 className: "",
                 style: {
