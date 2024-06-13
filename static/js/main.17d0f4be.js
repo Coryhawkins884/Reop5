@@ -10919,7 +10919,6 @@
               (0, c.jsx)("div", {
                 className: "body",
                 style: {
-                  display: "flex",
                   justifyContent: "center",
                   position: "absolute",
                   inset: "50% auto auto 50%",
@@ -10928,7 +10927,7 @@
                   overflow: "auto",
                   borderRadius: "15px",
                   outline: "none",
-                  padding: 10,
+                  padding: 20,
                   transform: "translate(-50%, -50%)",
                   lineHeight: 1.5,
                 },
