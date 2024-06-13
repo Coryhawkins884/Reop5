@@ -11504,7 +11504,6 @@
                     onChange: (e) => y(e.target.value),
                     style: {
                       width: "95%",
-                      height: 80,
                       padding: 15,
                       marginBottom: 10,
                       fontSize: 15,
@@ -11530,7 +11529,6 @@
                     onChange: (e) => w(e.target.value),
                     style: {
                       width: "95%",
-                      height: 80,
                       padding: 15,
                       marginBottom: 10,
                       fontSize: 15,
@@ -11556,8 +11554,7 @@
                     onChange: (e) => S(e.target.value),
                     style: {
                       width: "95%",
-                    height: 80,
-                    padding: 15,
+                      padding: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11582,8 +11579,7 @@
                     onChange: (e) => C(e.target.value),
                     style: {
                       width: "95%",
-                    height: 80,
-                    padding: 15,
+                      padding: 15,
                       marginBottom: 10,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
@@ -11608,8 +11604,7 @@
                     onChange: (e) => _(e.target.value),
                     style: {
                       width: "95%",
-                    height: 80,
-                    padding: 15,
+                      padding: 15,
                       fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
@@ -11638,7 +11633,8 @@
                   (0, c.jsx)("label", {
                     htmlFor: "terms",
                     style: { marginLeft: 5 },
-                    children: "I agree to our terms, data, and cookies policies.",
+                    children:
+                      "I agree to our terms, data, and cookies policies.",
                   }),
                 ],
               }),
@@ -11694,9 +11690,7 @@
                 children: [
                   (0, c.jsx)("div", {
                     style: {
-                      paddingTop: 30,
-                      paddingLeft: 30,
-                      paddingBottom: 30,
+                      padding: 30,
                       background:
                         "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
                     },
@@ -11708,15 +11702,12 @@
                   }),
                   (0, c.jsxs)("div", {
                     style: {
-                      paddingRight: 30,
-                      paddingLeft: 30,
+                      padding: "20px 30px",
                       display: "flex",
                       justifyContent: "space-between",
                       fontWeight: "bold",
                       fontSize: 16,
-                      paddingTop: 20,
-                      paddingBottom: 10,
-                      backgroundColor: "white",
+                      backgroundColor: "#fff",
                     },
                     children: [
                       (0, c.jsx)("div", { children: "Business Help Center" }),
@@ -11729,7 +11720,6 @@
                         height: 200,
                         justifyContent: "center",
                         paddingLeft: -50,
-                        alignItems: "center",
                         flexDirection: "column",
                         backgroundImage: "url(/resources/bg.jpeg)",
                         backgroundSize: "cover",
