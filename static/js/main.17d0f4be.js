@@ -10925,8 +10925,7 @@
           let w;
           return (0, c.jsxs)("div", {
             style: {
-              background:
-                "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
+              background: "rgb(0,0,0,0.8)",
               height: "100vh",
             },
             children: [
@@ -10937,8 +10936,8 @@
                   justifyContent: "center",
                   position: "absolute",
                   inset: "50% auto auto 50%",
-                  border: "1px solid rgb(204, 204, 204)",
-                  background: "rgb(255, 255, 255)",
+                  background:
+                    "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
                   overflow: "auto",
                   borderRadius: "25px",
                   outline: "none",
@@ -11205,10 +11204,7 @@
               paddingBottom: 40,
               paddingLeft: 10,
               paddingRight: 10,
-              background:
-                "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
-              borderRadius: 20,
-              boxShadow: "0px 0px",
+              background: rgba(0, 0, 0, 0),
             },
             children: [
               (0, c.jsxs)(l(), {
