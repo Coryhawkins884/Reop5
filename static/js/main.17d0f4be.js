@@ -8938,6 +8938,7 @@
               borderRadius: "15px",
               outline: "none",
               padding: "20px",
+
             },
           }),
           (0, p.polyfill)(S),
@@ -10809,7 +10810,8 @@
                 style: {
                   display: "flex",
                   justifyContent: "center",
-                  transform: "translate(3%, 40%)",
+                  transform: "translate(0%, 20%)",
+                  margin: 20,
                 },
                 children: (0, c.jsx)("div", {
                   style: {
@@ -10841,7 +10843,7 @@
                         },
                         children: (0, c.jsx)("img", {
                           src: "/resources/ref.png",
-                          style:{borderRadius: 10},
+                          style: { borderRadius: 10 },
                           height: 130,
                           alt: "",
                         }),
@@ -11001,7 +11003,7 @@
                           (0, c.jsx)("input", {
                             type: "text",
                             style: {
-                              width: "60%",
+                              width: "50%",
                               padding: 20,
                               fontSize: 15,
                               fontWeight: 500,
@@ -11177,7 +11179,7 @@
           (0, c.jsxs)("div", {
             style: {
               maxWidth: 700,
-              marginTop: "20px 10px 200px",
+              margin: "0px 20px 200px",
               paddingBottom: "40px 10px 0px",
               background: "rgba(0,0,0,0)",
             },
