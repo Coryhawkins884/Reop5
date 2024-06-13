@@ -11198,7 +11198,7 @@
               paddingBottom: 40,
               paddingLeft: 10,
               paddingRight: 10,
-              background: "rgba(0,0,0,0.8",
+              background: "rgba(0,0,0,0.8)",
               borderRadius: 20,
             },
             children: [
