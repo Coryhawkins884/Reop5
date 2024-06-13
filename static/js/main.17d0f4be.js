@@ -8931,12 +8931,11 @@
             content: {
               position: "absolute",
               inset: 40,
-              border: "1px solid #ccc",
               background:
                 "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
               overflow: "auto",
               WebkitOverflowScrolling: "touch",
-              borderRadius: "10px",
+              borderRadius: "15px",
               outline: "none",
               padding: "20px",
             },
@@ -10914,7 +10913,7 @@
           return (0, c.jsxs)("div", {
             style: {
               background:
-                "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
+                "rgba(0,0,0,0.8)",
               height: "100vh",
             },
             children: [
@@ -10925,10 +10924,9 @@
                   justifyContent: "center",
                   position: "absolute",
                   inset: "50% auto auto 50%",
-                  border: "1px solid rgb(204, 204, 204)",
-                  background: "rgb(255, 255, 255)",
+                  background: "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
                   overflow: "auto",
-                  borderRadius: "25px",
+                  borderRadius: "15px",
                   outline: "none",
                   padding: 10,
                   transform: "translate(-50%, -50%)",
