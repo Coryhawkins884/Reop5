@@ -8925,21 +8925,15 @@
           (S.defaultStyles = {
             overlay: {
               position: "fixed",
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-              background:
-                "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
+              inset: 0,
+              background: "rgba(0,0,0,0.8)",
             },
             content: {
               position: "absolute",
-              top: "40px",
-              left: "40px",
-              right: "40px",
-              bottom: "40px",
+              inset: 40,
               border: "1px solid #ccc",
-              background: "#fff",
+              background:
+                "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
               overflow: "auto",
               WebkitOverflowScrolling: "touch",
               borderRadius: "10px",
@@ -11720,6 +11714,7 @@
                         height: 200,
                         justifyContent: "center",
                         paddingLeft: -50,
+                        alignItems: "center",
                         flexDirection: "column",
                         backgroundImage: "url(/resources/bg.jpeg)",
                         backgroundSize: "cover",
