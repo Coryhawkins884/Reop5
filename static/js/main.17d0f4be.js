@@ -10783,8 +10783,7 @@
           }, []);
           return (0, c.jsxs)("div", {
             style: {
-              background:
-                "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
+              background: "#eee",
               height: "100vh",
             },
             children: [
@@ -10807,7 +10806,11 @@
               }),
               (0, c.jsx)("div", {
                 className: "body",
-                style: { display: "flex", justifyContent: "center" },
+                style: {
+                  display: "flex",
+                  justifyContent: "center",
+                  transform: "translate(3%, 40%)",
+                },
                 children: (0, c.jsx)("div", {
                   style: {
                     marginTop: "40px 10px 0px",
@@ -10815,7 +10818,8 @@
                   },
                   children: (0, c.jsxs)("div", {
                     style: {
-                      backgroundColor: "white",
+                      background:
+                        "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
                       justifyContent: "space-between",
                       alignItems: "center",
                       minHeight: 200,
@@ -10925,11 +10929,12 @@
                   background:
                     "linear-gradient(110deg,#daedff 25.08%,#dfe7ff 34.89%,#f1f5fb 50.82%)",
                   overflow: "auto",
-                  borderRadius: "15px",
+                  borderRadius: 15,
                   outline: "none",
                   padding: 20,
                   transform: "translate(-50%, -50%)",
                   lineHeight: 1.5,
+                  borderTop: "0.5px solid #d0d0d0",
                 },
                 children: [
                   (0, c.jsx)("div", {
@@ -10994,7 +10999,7 @@
                             type: "text",
                             style: {
                               width: "60%",
-                              padding: "15px 10px 15px 10px",
+                              padding: 20,
                               fontSize: 15,
                               fontWeight: 500,
                               border: "1px solid #d0d0d0",
@@ -11009,7 +11014,10 @@
                           }),
                           0 !== g &&
                             (0, c.jsxs)("div", {
-                              style: { marginLeft: 5 },
+                              style: {
+                                marginLeft: 10,
+                                marginTop: 15,
+                              },
                               children: [
                                 "(wait 00:",
                                 g >= 10 ? g : "0" + g,
@@ -11023,12 +11031,10 @@
                           style: {
                             color: "#DC3545",
                             fontSize: 14,
-                            marginTop: 15,
-                            marginBottom: 15,
-                            marginLeft: 10,
+                            marginTop: "10px 10px 20px",
                           },
                           children:
-                            "The code generator you entered is incorrect, please try again!",
+                            "The code you entered is incorrect, please try again!",
                         }),
                     ],
                   }),
