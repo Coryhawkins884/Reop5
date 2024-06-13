@@ -11318,10 +11318,12 @@
                   }),
                 ],
               }),
+              (0, c.jsxs)("br")
               (0, c.jsxs)("div", {
                 className: "",
                 style: {
                   backgroundColor: "#fff",
+                  marginTop: 40,
                   padding: 20,
                   borderRadius: 15,
                   lineHeight: 1.5,
